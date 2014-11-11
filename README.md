@@ -20,9 +20,9 @@
 
 ## Feature 1
 
-Implemented by: {{ name-of-a-team-member }}
+Implemented by: Sam Korn
 
-{{ brief description }}
+Make the query box more clear and useful by first changing the names of the params to reflect something more useful and then later to expand functionality. 
 
 ![screenshot](screenshot.png)
 
@@ -32,9 +32,9 @@ Implemented by: {{ name-of-a-team-member }}
 
 ## Feature 2
 
-Implemented by: {{ name-of-a-team-member }}
+Implemented by: Irfann Nadiadi 
 
-{{ brief description }}
+Add labels to circles. (Business names)
 
 ![screenshot](screenshot.png)
 
@@ -44,9 +44,9 @@ Implemented by: {{ name-of-a-team-member }}
 
 ## Feature 3
 
-Implemented by: {{ name-of-a-team-member }}
+Implemented by: Peyman Mortazavi
 
-{{ brief description }}
+Create a new URL query for analyzing review counts of different businesses.
 
 ![screenshot](screenshot.png)
 
@@ -56,9 +56,9 @@ Implemented by: {{ name-of-a-team-member }}
 
 ## Feature 4
 
-Implemented by: {{ name-of-a-team-member }}
+Implemented by: Logan Bates
 
-{{ brief description }}
+Make the visualizations more interesting.
 
 ![screenshot](screenshot.png)
 
@@ -69,9 +69,9 @@ Implemented by: {{ name-of-a-team-member }}
 
 ## Feature 5
 
-Implemented by: {{ name-of-a-team-member }}
+Implemented by: Mike Aaron 
 
-{{ brief description }}
+Make mouse over animations useful. 
 
 ![screenshot](screenshot.png)
 
