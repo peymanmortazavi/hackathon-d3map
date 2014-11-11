@@ -14,7 +14,7 @@
 
 ## Review Count --> Size
 
-![screenshot](screenshot.png)
+![screenshot](warmup2.png)
 
 # Objective 2. Customization
 
