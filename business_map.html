@@ -192,10 +192,18 @@
                    .style("height", 32);
             })
 
+        var linearScale = d3.scale.linear()
+          .domain([ 
+            d3.min(dataset, function(d) { return d.review_count; }), 
+            d3.max(dataset, function(d) { return d.review_count; }) 
+            ])
+          .range([3,15]);
 
         // Add a circle.
         marker.append("svg:circle")
-            .attr("r", 15)
+            .attr("r", function(d) {
+              return linearScale(d.review_count);
+            })
             .attr("cx", circle_x)
             .attr("cy", circle_y)
             .attr("fill", 'brown');
