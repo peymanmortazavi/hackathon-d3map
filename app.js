@@ -3,7 +3,8 @@ var async = require('async');
 var app = express();
 
 var mongo = require('mongoskin');
-var db = mongo.db("mongodb://sudo@localhost/yelp", {native_parser:true});
+
+var db = mongo.db("mongodb://localhost/yelp/:3000", {native_parser:true});
 
 app.engine('.html', require('ejs').__express);
 app.set('views', __dirname);
@@ -18,10 +19,10 @@ app.get('/query/:param1/:param2', function(req, res) {
         .find(query,projection)
         .sort( {review_count: -1 } )
         .limit(10)
-        .toArray(function (err, businesses) {        
+        .toArray(function (err, business) {        
            
 
-            async.map(businesses, 
+            async.map(business, 
                 function(business, callback){ 
                     var query = {"business_id" : business.business_id, 
                                  "votes.useful" : { $gt : parseInt(param2)}};
