@@ -1,10 +1,10 @@
 # Team Members
 
-* [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
+* [Peyman Mortazavi](https://github.com/peymanmortazavi/)
+* [Logan Bates](https://github.com/LoganBates)
+* [Irfann Nadiadi](https://github.com/irfann1)
+* [Sam Korn](https://github.com/sako0938)
+* [Mike Aaron](https://github.com/develra)
 
 # Objective 1. Warmup
 
