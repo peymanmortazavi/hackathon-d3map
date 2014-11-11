@@ -198,7 +198,11 @@
             .attr("r", 15)
             .attr("cx", circle_x)
             .attr("cy", circle_y)
-            .attr("fill", 'brown');
+            .attr("fill", function(d) {
+              if (d.stars > 4) return "red";
+              else if (d.stars > 3) return "brown";
+              else return "black";
+              });
             
         // For each marker, apply a function
         marker.each(function (d){

@@ -10,7 +10,7 @@
 
 ## Star Rating --> Color
 
-![screenshot](screenshot.png)
+![screenshot](warmup1.png)
 
 ## Review Count --> Size
 
